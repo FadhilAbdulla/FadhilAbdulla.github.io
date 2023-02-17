@@ -1,7 +1,7 @@
 {
   "name": "sample",
   "version": "0.1.0",
-  "homepage": "https://FadhilAbdulla.github.io/React-Web-Test",
+  "homepage": "https://FadhilAbdulla.github.io/ReactTest",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
