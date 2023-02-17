@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Counter from "./Counter";
+import {useState} from "react"
+import Iframe from 'react-iframe'
+
+
+
 
 function App() {
+
+  const[mountable,setMountable] = useState(false)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+
+      <Iframe url="https://anglofone.co.in/"
+        width="640px"
+        height="320px"
+        id=""
+        className=""
+        display="block"
+        position="relative"/>
     </div>
   );
 }
